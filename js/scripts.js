@@ -10,4 +10,12 @@ $(document).ready(function () {
   $("img").click(function () {
     alert("This is an image.");
   });
+
+  $("h2").click(function () {
+    alert("This is an h2 header.");
+  });
+
+  $("ul").dblclick(function () {
+    alert("This is an unordered list.");
+  });
 });
